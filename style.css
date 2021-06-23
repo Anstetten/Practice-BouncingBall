@@ -39,4 +39,6 @@ body>div{
     width: 50px;
     border-radius: 50%;
     position: absolute;
+    transition: left 1s ease-in-out,
+                top 1s ease-in-out;
     }
