@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+    justify-content: center;
+    align-items: center;
+}
+
+body>div{
+    border: 3px solid cornflowerblue;
+    background-color: bisque;
+    margin: 20px 30px;
+
+}
+
+#controls{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 500px;
+    align-items: center;
+
+}
+
+#controls input{
+    margin: 10px 0;
+    width: 33%;
+}
+
+#field{
+    height: 600px;
+    width: 1200px;
+    position: relative;
+}
+
+#ball{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    }
