@@ -7,7 +7,7 @@ body{
 }
 
 body>div{
-    border: 3px solid cornflowerblue;
+    border: 3px solid rgb(0, 0, 0);
     background-color: bisque;
     margin: 20px 30px;
 
@@ -31,6 +31,7 @@ body>div{
     height: 600px;
     width: 1200px;
     position: relative;
+    border: 6px solid rgb(0, 0, 0);
 }
 
 #ball{
@@ -38,7 +39,24 @@ body>div{
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0);
     position: absolute;
-    transition: left 1s ease-in-out,
-                top 1s ease-in-out;
+    left:5px;
+    top:5px;
+    /*transition: left 0.01s linear,
+                top 0.01s linear;*/
     }
+
+
+#direction{
+    width:40px;
+    height:2px;
+    border:1px solid blue;
+    background-color: blue;
+    position: absolute;
+    top:24px;
+    left :25px;
+    transform: rotate(0deg);
+    transform-origin: top left;
+    transition:transform 0.5s ease-in-out
+}
